@@ -3,7 +3,7 @@
 
 /**
  * binary_tree_inorder - goes through a binary tree using pre-order traversal
- * : pointer to the root node of the tree to traverse
+ * @tree pointer to the root node of the tree to traverse
  * @func:function to call in each node
  */
 
