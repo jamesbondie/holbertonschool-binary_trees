@@ -3,8 +3,8 @@
 
 /**
  * binary_tree_inorder - function that goes through a binary tree
- * @tree: pointer to the root node of the tree to traverse
- * @func:function to call in each node
+ * @tree: pointer to the root node
+ * @func:function to call
  */
 
 
