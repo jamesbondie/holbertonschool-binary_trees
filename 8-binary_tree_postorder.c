@@ -4,7 +4,7 @@
 /**
  * binary_tree_postorder - function that goes through a binary tree
  * @tree: pointer to the root node
- * func:function to call
+ * @func:function to call
  */
 
 
