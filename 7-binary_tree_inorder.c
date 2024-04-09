@@ -2,8 +2,8 @@
 
 
 /**
- * binary_tree_inorder - goes through a binary tree using pre-order traversal
- * @tree pointer to the root node of the tree to traverse
+ * binary_tree_inorder - function that goes through a binary tree
+ * @tree: pointer to the root node of the tree to traverse
  * @func:function to call in each node
  */
 
