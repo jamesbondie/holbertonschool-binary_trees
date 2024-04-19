@@ -13,9 +13,9 @@ size_t size = 0;
 if (tree == NULL)
 {
 if (tree->left != NULL || tree->right != NULL)
-nodes++;
-nodes += binary_tree_nodes(tree->left);
-nodes += binary_tree_nodes(tree->right);
+size++;
+size += binary_tree_nodes(tree->left);
+size += binary_tree_nodes(tree->right);
 }
-return (nodes);
+return (size);
 }
