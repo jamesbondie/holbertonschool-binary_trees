@@ -1,0 +1,17 @@
+#include "binary_trees.h"
+
+/**
+ * binary_tree_leaves - function that measures the leaf
+ * @tree:pointer to the root node
+ * Return: 0 or Size
+ */
+
+
+size_t binary_tree_leaves(const binary_tree_t *tree)
+{
+int size = 0;
+if (tree == NULL)
+	return (0);
+size =  binary_tree_size(tree->left) + binary_tree_size(tree->right);
+return (size);
+}
