@@ -47,5 +47,5 @@ while (level < height - 1)
 nodes *= 2;
 level++;
 }
-return (nodes == (1 << height - 1));
+return (nodes == (1 << (height - 1)));
 }
