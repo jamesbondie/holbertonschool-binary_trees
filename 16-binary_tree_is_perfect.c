@@ -10,10 +10,10 @@
 
 
 
-int binary_tree_height(const binary_tree_t *tree)
+int _binary_tree_height(const binary_tree_t *tree)
 {
-int left_height = binary_tree_height(tree->left);
-int right_height = binary_tree_height(tree->right);
+int left_height = _binary_tree_height(tree->left);
+int right_height = _binary_tree_height(tree->right);
 if (tree == NULL)
 	return (0);
 if (left_height > right_height)
@@ -37,7 +37,7 @@ else
 
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
-int height = binary_tree_height(tree);
+int height = _binary_tree_height(tree);
 int nodes = 1;
 int level = 0;
 if (tree == NULL)
