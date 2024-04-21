@@ -3,7 +3,7 @@
 
 /**
  * binary_tree_sibling - sibling of a binary tree
- * @tree: pointer to the root node
+ * @node: pointer to the root node
  * Return: sibling of binary tree
  *
  */
